@@ -21,13 +21,12 @@ public class Burger {
     private Double price;
 
     @Column(name = "is_vegan")
-    private boolean isVegan;
+    private boolean IsVegan;
 
     @Column(name = "bread_type")
     @Enumerated(EnumType.STRING)
-    private BreadeType breadType;
+    private BreadType breadType;
 
     @Column(name = "content")
-    private String content;
-
+    private String contents;
 }
